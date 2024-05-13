@@ -1,0 +1,460 @@
+according: 1
+to: 2, 88, 134, 156, 227, 252, 295, 338, 371, 381, 404, 432, 454, 475, 487, 507, 518, 555, 560, 571, 599, 609, 632, 660, 675, 686, 691, 758, 767, 810, 826, 862, 874, 880, 942, 969, 976, 998, 1002
+tech: 3
+jury: 4
+despite: 5
+a: 6, 47, 113, 129, 136, 169, 182, 205, 217, 234, 271, 357, 376, 410, 421, 451, 491, 511, 552, 557, 579, 613, 622, 677, 680, 693, 704, 707, 711, 745, 783, 789, 807, 812, 815, 828, 849, 853, 868, 887, 892, 914, 944, 947, 1005
+number: 7
+of: 8, 19, 25, 42, 72, 177, 185, 204, 260, 500, 652, 667, 706, 729, 738, 753, 904, 928, 962
+cool: 9
+apps: 10, 730
+and: 11, 39, 58, 138, 161, 188, 224, 255, 268, 304, 340, 394, 446, 497, 539, 575, 606, 624, 636, 717, 725, 735, 780, 788, 843, 882, 899, 921, 936, 960, 966, 990
+tips: 12, 461, 900
+for: 13, 174, 346, 354, 398, 423, 550, 603, 671, 837, 847
+successful: 14, 948
+time: 15, 23, 31, 43, 44, 67, 91, 102, 151, 215, 325, 343, 361, 427, 437, 443, 470, 601, 906, 952
+management: 16, 45, 68, 907
+only: 17, 714
+17%: 18
+people: 20, 26, 51, 152, 245, 288, 299, 397, 522, 909, 939, 983
+track: 21
+their: 22, 53, 292, 442, 732, 760, 864, 974
+50%: 24
+have: 27, 337, 429, 633, 692, 827
+never: 28, 328, 743
+thought: 29
+about: 30, 509, 794
+waste: 32
+even: 33
+though: 34
+they: 35, 171, 273, 308, 315, 333, 336, 344, 543, 916, 924, 957
+are: 36, 191, 300, 548, 731, 910, 925, 954, 958
+always: 37, 246
+late: 38, 254
+running: 40
+out: 41
+is: 46, 84, 99, 131, 181, 201, 233, 243, 350, 409, 474, 479, 486, 493, 504, 517, 598, 631, 690, 709, 764, 806
+skill: 48
+it: 49, 85, 107, 232, 367, 503, 763, 805, 876
+helps: 50, 659
+handle: 52, 316, 661, 759
+daily: 54, 235, 577, 761
+duties: 55, 162, 533, 627, 762, 842, 937
+without: 56, 720
+burnout: 57, 240
+severe: 59
+exhaustion: 60
+the: 61, 70, 146, 150, 164, 175, 195, 198, 202, 228, 258, 351, 405, 471, 484, 498, 514, 562, 585, 595, 616, 664, 668, 683, 727, 750, 769, 795, 824, 832, 896, 902, 929
+n: 62
+i: 63
+l: 64
+c: 65
+includes: 66
+on: 69, 214, 688
+list: 71
+top: 73, 512
+ten: 74
+demanded: 75
+soft: 76
+skills: 77, 418
+that: 78, 109, 126, 190, 237, 287, 347, 462, 526, 534, 547, 649, 658, 710, 932
+employees: 79, 322
+require: 80, 345
+in: 81, 104, 116, 194, 239, 306, 386, 434, 639, 663, 803, 817, 823, 831, 913, 973
+2022: 82
+why: 83
+so: 86, 192
+important: 87, 778
+manage: 89
+one’s: 90, 373, 818
+correctly: 92
+stephen: 93
+covey: 94
+once: 95, 995
+said: 96, 996
+“the: 97
+key: 98, 482
+not: 100, 132, 506, 583, 608, 792, 911, 926, 955
+spending: 101
+but: 103, 531, 569
+investing: 105
+it”: 106
+means: 108
+proper: 110, 456, 980
+timing: 111, 417
+guarantees: 112
+person’s: 114
+success: 115
+many: 117, 317, 919
+life: 118, 435, 949
+areas: 119
+career: 120
+trend: 121
+names: 122
+three: 123, 1000
+negative: 124, 230
+aspects: 125
+occur: 127
+when: 128, 241, 290, 612, 644, 908
+person: 130, 218, 452, 492, 553, 614, 712, 790, 850
+able: 133
+follow: 135
+schedule: 137
+be: 139, 369, 488, 528, 536, 840, 878, 984, 999
+flexible: 140
+first: 141, 472
+off: 142
+one: 143, 211, 473, 593, 673, 742, 775, 799
+risks: 144
+delaying: 145, 626
+task: 147, 516, 605
+performance: 148, 866
+all: 149, 400, 856
+who: 153, 440
+got: 154
+used: 155
+procrastination: 157, 180, 225
+start: 158, 811
+doing: 159
+assignments: 160
+at: 163, 331, 495, 747
+very: 165
+last: 166
+moment: 167
+as: 168, 270, 302, 578, 700, 992
+result: 170, 272, 580
+sacrifice: 172
+quality: 173
+sake: 176
+deadlines: 178
+moreover: 179, 483, 542
+perfect: 183, 416, 426, 951, 985
+killer: 184
+vital: 186, 656
+energy: 187, 657, 963
+productiveness: 189
+essential: 193, 629
+xxi: 196
+century: 197
+second: 199, 558, 665
+aspect: 200, 231
+development: 203
+chronic: 206
+late-coming: 207, 223
+habit: 208
+how: 209, 341, 941
+can: 210, 378, 444, 450, 463, 527, 776
+come: 212
+somewhere: 213
+if: 216, 356, 490, 867
+cannot: 219, 256, 641
+plan: 220, 801
+activities: 221
+besides: 222, 741
+lead: 226, 403
+third: 229, 348
+overload: 236
+results: 238
+nothing: 242
+well-planned: 244
+get: 247, 466, 561, 584, 970
+busy: 248
+with: 249, 297, 415, 715, 814, 918
+something: 250
+go: 251
+bed: 253
+relax: 257
+pressure: 259
+undone: 261
+tasks: 262, 318, 525, 546, 568, 662, 781, 885, 920
+prevents: 263
+them: 264, 611
+from: 265
+normal: 266
+sleep: 267, 278, 654
+rest: 269, 634
+acquire: 274
+panic: 275
+attacks: 276
+anxiety: 277
+disorders: 279
+apathy: 280
+or: 281, 388, 679, 695, 772
+depression: 282
+mindtools: 283
+introduce: 284
+five: 285
+benefits: 286, 728
+face: 289
+managing: 291
+day: 293, 594, 669, 813, 931
+successfully: 294
+begin: 296
+such: 298, 312, 375, 699, 938, 971
+known: 301
+productive: 303, 959
+effective: 305
+what: 307, 335, 449
+do: 309, 339, 453, 524
+employers: 310
+adore: 311
+individuals: 313, 414, 754, 972
+because: 314, 587
+faster: 319
+than: 320, 436, 592, 1004
+other: 321, 567
+secondly: 323
+ideal: 324
+managers: 326, 428, 953
+almost: 327
+feel: 329, 922
+stressed: 330
+work: 332, 846
+know: 334, 940
+much: 342
+scheduling: 349, 457, 716, 822, 981
+best: 352, 684
+promoter: 353
+example: 355, 551, 848
+student: 358, 377, 873, 893
+has: 359
+free: 360
+after: 362
+having: 363
+done: 364, 529, 537
+academic: 365
+homework: 366
+will: 368, 582, 785, 791, 877, 889, 894
+possible: 370, 766
+broaden: 372
+look: 374
+read: 379
+books: 380
+enlarge: 382
+personal: 383
+vocabulary: 384
+practice: 385, 576
+report: 387
+article: 389
+writing: 390
+visit: 391
+different: 392
+places: 393
+meet: 395
+new: 396, 501, 573
+networking: 399
+these: 401
+things: 402, 502
+next: 406, 515, 596
+benefit: 407, 705
+which: 408
+positive: 411
+reputation: 412
+motivated: 413
+usually: 419
+become: 420
+model: 422
+following: 424
+finally: 425, 798
+more: 430, 467, 591, 934
+chances: 431
+succeed: 433, 890
+wasters: 438
+those: 439
+control: 441, 445, 468
+supervise: 447
+others: 448
+learn: 455, 519
+professionals: 458
+give: 459
+seven: 460
+help: 464, 875
+everyone: 465
+over: 469
+set: 476, 600
+goals: 477
+motivation: 478
+an: 480, 697, 834, 871
+ignition: 481
+goal: 485
+achievable: 489
+bad: 494, 808
+geometry: 496
+creation: 499
+better: 505, 879
+dream: 508
+becoming: 510
+designer: 513
+prioritizing: 520
+concepts: 521
+often: 523, 544
+later: 530
+delay: 532
+should: 535, 800, 858
+here: 538
+right: 540
+now: 541
+neglect: 545
+long-perspective: 549
+needs: 554, 674
+master: 556
+language: 559, 588
+desired: 563
+occupation: 564
+she: 565, 581
+does: 566
+forgets: 570, 744
+memorize: 572
+words: 574
+job: 586
+mastering: 589
+demands: 590
+recommendation: 597
+frames: 602
+each: 604
+try: 607
+change: 610
+sees: 615
+approaching: 617
+deadline: 618
+he: 619
+speeds: 620
+up: 621
+bit: 623
+stops: 625
+another: 628
+thing: 630
+brains: 635
+human: 637
+bodies: 638
+general: 640
+function: 642
+well: 643
+being: 645, 721
+exhausted: 646, 872
+everybody: 647
+knows: 648
+20: 650
+minutes: 651
+noon: 653, 1003
+restores: 655
+half: 666
+except: 670
+bedtime: 672
+enjoy: 676
+hobby: 678
+pleasant: 681
+activity: 682
+method: 685
+stay: 687
+alert: 689
+notebook: 694, 708
+install: 696
+app: 698
+todoist: 701, 757
+timetree: 702
+etc: 703
+deals: 713
+jotting: 718
+down: 719
+distracted: 722
+by: 723, 749
+messages: 724
+notifications: 726
+notification: 733
+systems: 734
+compact: 736
+seizes: 737
+compatible: 739
+devices: 740
+smartphone: 746
+home: 748
+way: 751
+33%: 752
+worldwide: 755
+use: 756, 768
+also: 765
+wall: 770
+online: 771
+mobile: 773
+calendars: 774
+mark: 777
+meetings: 779
+there: 782
+system: 784
+send: 786
+reminders: 787
+forget: 793
+upcoming: 796
+event: 797
+everything: 802
+advance: 804
+idea: 809
+mess: 816
+head: 819
+psychologists: 820
+recommend: 821
+evening: 825
+set-up: 829
+mind: 830
+morning: 833
+extra: 835, 845, 884
+tip: 836
+beginners: 838
+might: 839
+sharing: 841
+avoiding: 844
+must: 851
+make: 852
+team: 854, 987
+project: 855
+members: 857
+take: 859
+equal: 860
+responsibilities: 861, 935
+guarantee: 863
+on-time: 865
+friend: 869, 888
+asks: 870
+excuse: 881
+refuse: 883
+otherwise: 886
+while: 891
+fail: 895
+above-mentioned: 897
+facts: 898
+highlight: 901
+importance: 903
+good: 905
+constantly: 912
+hurry: 915
+cope: 917
+self-confident: 923
+afraid: 927
+coming: 930
+brings: 933
+turn: 943
+minute: 945, 1006
+into: 946
+investment: 950
+lazy: 956
+full: 961
+leading: 964
+organizations: 965
+companies: 967
+desire: 968
+teams: 975
+boost: 977
+overall: 978
+productivity: 979
+lets: 982
+leaders: 986
+builders: 988
+assistants: 989
+performers: 991
+william: 993
+shakespear: 994
+“better: 997
+hours: 1001
+too: 1007
+late”: 1008
