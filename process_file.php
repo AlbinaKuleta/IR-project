@@ -23,9 +23,6 @@
             text-align: center;
             margin-bottom: 20px;
         }
-        p {
-            margin-bottom: 5px;
-        }
         .result-box {
             margin-top: 20px;
             padding: 10px;
@@ -57,22 +54,33 @@
                 $index[$word][] = $position + 1;
             }
 
-            // Paraqit indeksin në Result Box
-            echo "<div class='result-box'>";
+            // Ndaj fjalët në grupet çifte dhe tekë
+            $evenWords = [];
+            $oddWords = [];
             foreach ($index as $word => $positions) {
+                if (count($positions) % 2 === 0) {
+                    $evenWords[$word] = $positions;
+                } else {
+                    $oddWords[$word] = $positions;
+                }
+            }
+
+            // Paraqit grupet çifte në Result Box
+            echo "<div class='result-box'><h3>Grupet Çifte</h3>";
+            foreach ($evenWords as $word => $positions) {
                 echo "<p>{$word}: " . implode(', ', $positions) . "</p>";
             }
             echo "</div>";
 
-            // Eksporto indeksin në file të jashtëm (output.txt ose output.csv)
+            // Eksporto grupet tekë në file të jashtëm (output.txt ose output.csv)
             $outputFileName = 'output.txt'; // ose 'output.csv' për CSV format
             $outputFile = fopen($outputFileName, 'w');
-            foreach ($index as $word => $positions) {
+            foreach ($oddWords as $word => $positions) {
                 fwrite($outputFile, "{$word}: " . implode(', ', $positions) . "\n");
             }
             fclose($outputFile);
 
-            echo "<p>Indeksi është eksportuar në <strong>{$outputFileName}</strong>.</p>";
+            echo "<p>Grupet Tekë janë eksportuar në <strong>{$outputFileName}</strong>.</p>";
         } else {
             echo "<p>Error uploading file.</p>";
         }
