@@ -30,9 +30,7 @@
             border-radius: 5px;
             background-color: #f8f9fa;
         }
-
-/* Pjesa e formes t'search */
- .search-bar input[type="text"] {
+        .search-bar input[type="text"] {
             padding: 10px;
             width: 80%;
             max-width: 500px;
@@ -53,23 +51,20 @@
         }
         .add-button:hover {
             background-color: #0056b3;
+        }
     </style>
-
-
-<script>
+    <script>
         function searchWord() {
             const searchInput = document.getElementById('searchInput').value.toLowerCase();
             const resultBox = document.querySelector('.result-box');
             const paragraphs = resultBox.getElementsByTagName('p');
 
-
-
-            //Remove previous highlights
+            // Remove previous highlights
             for (let paragraph of paragraphs) {
                 paragraph.innerHTML = paragraph.innerHTML.replace(/<span class="highlight">([^<]*)<\/span>/gi, '$1');
             }
 
-         // Highlight the search term
+            // Highlight the search term
             if (searchInput) {
                 for (let paragraph of paragraphs) {
                     const regex = new RegExp(`(${searchInput})`, 'gi');
@@ -78,42 +73,38 @@
             }
         }
 
-
-
         function addWord() {
-        const searchInput = document.getElementById('searchInput').value.toLowerCase().trim();
-        if (searchInput) {
-            // Check if the word is not already present in the result box
-            const resultBox = document.querySelector('.result-box');
-            const paragraphs = resultBox.getElementsByTagName('p');
-            let wordExists = false;
-            for (let paragraph of paragraphs) {
-                if (paragraph.textContent.toLowerCase().includes(searchInput)) {
-                    wordExists = true;
-                    break;
-                }
-            }
-            if (!wordExists) {
-                // Export the word to output.txt
-                const xhr = new XMLHttpRequest();
-                xhr.open('POST', 'export_word.php', true);
-                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-                xhr.onreadystatechange = function() {
-                    if (xhr.readyState === 4 && xhr.status === 200) {
-                        alert(xhr.responseText);
+            const searchInput = document.getElementById('searchInput').value.toLowerCase().trim();
+            if (searchInput) {
+                // Check if the word is not already present in the result box
+                const resultBox = document.querySelector('.result-box');
+                const paragraphs = resultBox.getElementsByTagName('p');
+                let wordExists = false;
+                for (let paragraph of paragraphs) {
+                    if (paragraph.textContent.toLowerCase().includes(searchInput)) {
+                        wordExists = true;
+                        break;
                     }
-                };
-                xhr.send('word=' + encodeURIComponent(searchInput));
+                }
+                if (!wordExists) {
+                    // Export the word to output.txt
+                    const xhr = new XMLHttpRequest();
+                    xhr.open('POST', 'export_word.php', true);
+                    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                    xhr.onreadystatechange = function() {
+                        if (xhr.readyState === 4 && xhr.status === 200) {
+                            alert(xhr.responseText);
+                        }
+                    };
+                    xhr.send('word=' + encodeURIComponent(searchInput));
+                } else {
+                    alert('Word already exists in the file.');
+                }
             } else {
-                alert('Word already exists in the file.');
+                alert('Please enter a word to add.');
             }
-        } else {
-            alert('Please enter a word to add.');
         }
-    }
     </script>
-
-
 </head>
 <body>
     <div class="container">
