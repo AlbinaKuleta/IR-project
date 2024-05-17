@@ -142,6 +142,23 @@
                 $index[$word][] = $position + 1;
             }
 
+ // Ndaj fjalët në grupet çifte dhe tekë
+            $evenWords = [];
+            $oddWords = [];
+            foreach ($index as $word => $positions) {
+                if (count($positions) % 2 === 0) {
+                    $evenWords[$word] = $positions;
+                } else {
+                    $oddWords[$word] = $positions;
+                }
+            }
+
+  // Paraqit grupet çifte në Result Box
+            echo "<div class='result-box'><h3>Grupet Çifte</h3>";
+            foreach ($evenWords as $word => $positions) {
+                echo "<p>{$word}: " . implode(', ', $positions) . "</p>";
+            }
+
             // Ndaj fjalët në grupet çifte dhe tekë
             $evenWords = [];
             $oddWords = [];
