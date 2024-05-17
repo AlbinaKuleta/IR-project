@@ -122,8 +122,6 @@
             <input type="text" id="searchInput" placeholder="Search for a word..." oninput="searchWord()">
             <button class="add-button" onclick="addWord()">Add</button>
         </div>
-
-        
         <?php
         if (isset($_FILES["fileToUpload"]) && $_FILES["fileToUpload"]["error"] == 0) {
             $fileName = $_FILES["fileToUpload"]["name"];
@@ -154,51 +152,6 @@
                     $oddWords[$word] = $positions;
                 }
             }
-
-            // Kalkuloje TF, IDF, and TF-IDF
-            $tf = [];
-            foreach ($index as $word => $positions) {
-                $tf[$word] = count($positions) / $totalWords;
-            }
-
-   // Assuming this is the only document, IDF is straightforward
-$idf = [];
-$totalDocuments = 1; // We have one document
-foreach ($index as $word => $positions) {
-    // Meqenëse kemi vetëm një dokument, IDF do të jetë 0 për të gjitha termat, gjë që nuk është e dobishme.
-     // Prandaj, ne duhet të rregullojmë formulën për të pasqyruar numrin e përgjithshëm të fjalëve në vend të dokumenteve.
-    $idf[$word] = log($totalWords / count($index[$word]), 10); //Përdorimi i bazës 10 për llogaritjen e IDF
-}
-
-
-            $tfidf = [];
-            foreach ($index as $word => $positions) {
-                $tfidf[$word] = $tf[$word] * $idf[$word];
-            }
-
-            // Paraqit grupet çifte në Result Box
-            echo "<div class='result-box'><h3>Grupet Çifte</h3>";
-            foreach ($evenWords as $word => $positions) {
-                echo "<p>{$word}: " . implode(', ', $positions) . "</p>";
-            }
-
-
-            echo " <h3>Term Frequencies (TF)</h3>";
-            foreach ($tf as $word => $value) {
-                echo "<p>{$word}: {$value}</p>";
-            }
-
-            echo " <h3>Inverse Document Frequencies (IDF)</h3>";
-            foreach ($idf as $word => $value) {
-                echo "<p>{$word}: {$value}</p>";
-            }
-
-            echo " <h3>TF-IDF</h3>";
-            foreach ($tfidf as $word => $value) {
-                echo "<p>{$word}: {$value}</p>";
-            }
-            echo "</div>";
-
 
 
             // Eksporto grupet tekë në file të jashtëm (output.txt ose output.csv)
